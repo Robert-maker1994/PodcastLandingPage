@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Background Picture */
+img {
+  position: relative;
+  width: 100%;
+  height: 640px;
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+/* Headings */
+.headings {
+ 
+  position: absolute;
+  top: 18%;
+  left: 15%;
+}
+
+/* Form */
+.container {
+  position: absolute;
+  top: 40%;
+  left: 23%;
+  z-index: 100;
+}
+
+/* Start  Of Form */
+form {
+  display: grid;
+
+}
+
+.inputContainer {
+  margin: 20px auto auto auto ;
+}
+
+.button {
+  font-size: 15px;
+  margin: 20px auto;
+  padding: 20px 30px;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+
+/* Start of soicals */
+
+.SoicalButtons{
+  position: absolute;
+  left: 10%;
+
+}
+
