@@ -1,0 +1,34 @@
+.writing {
+    padding: 200px 0;
+    position: absolute;
+    top: 2%;
+}
+/* Background Picture */
+img {
+    
+    position: relative;
+    width: 100%;
+    height: 640px;
+    opacity: 0.3;
+    filter: grayscale(100%);
+    animation: back 10s infinite;
+  }
+  @keyframes back {
+    1% {
+      filter: grayscale(75%);
+    }
+    25% {
+      filter: grayscale(50%);
+      opacity: 0.6;
+    }
+    50% {
+      filter: grayScale(25%);
+    }
+    75% {
+      filter: grayscale(50%);
+      opacity: 0.9;
+    }
+    100% {
+      filter: grayscale(100%);
+    }
+  }
